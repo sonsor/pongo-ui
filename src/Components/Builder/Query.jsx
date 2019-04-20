@@ -10,7 +10,6 @@ class Query extends Component
     render() {
 
         const {
-            Group,
             Label,
             Control
         } = Form
@@ -34,14 +33,14 @@ class Query extends Component
                     </Col>
                 </Row>
                 <Row>
-                    <Col md="3">
+                    <Col>
                         <Label>Skip :</Label>
                     </Col>
                     <Col>
                         <Control type="text" />
                     </Col>
-                    <Col md="3">
-                        <Label>Skip :</Label>
+                    <Col>
+                        <Label>Limit :</Label>
                     </Col>
                     <Col>
                         <Control type="text" />
