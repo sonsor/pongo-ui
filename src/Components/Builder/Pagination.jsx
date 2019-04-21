@@ -12,18 +12,15 @@ class Pagination extends Component
     render() {
         return (
             <Row>
-                <Col sm={3}>
+                <Col sm={9}>
                     <Button> &lt;&lt; </Button>
                     <Button> &lt; </Button>
-                </Col>
-                <Col sm={2}>
+
                     <FormControl type="text"  />
-                </Col>
-                <Col sm={3}>
+
                     <Button> &gt; </Button>
                     <Button> &gt;&gt; </Button>
                 </Col>
-                <Col></Col>
                 <Col sm={3}>
                     <Button> i </Button>
                     <Button> u </Button>
